@@ -45,8 +45,4 @@ table_full_detection_summary.tex
 Videos/
 
 # === LARGE DATASETS (handled externally) ===
-dataset.csv
-dataset_results.csv
-detection_summary.csv
-aggregate_detection_summary.csv
-total_inference_times.csv
+*.csv
