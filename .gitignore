@@ -1,10 +1,9 @@
-# Ignore video files
+# === VIDEO & IMAGE FILES ===
 *.mp4
 *.mov
 *.avi
 *.mkv
 
-# Ignore image files
 *.jpg
 *.jpeg
 *.png
@@ -13,47 +12,41 @@
 *.tiff
 *.webp
 
-# Ignore the folders cache_dir and DeepSeek-VL
-cache_dir/
-DeepSeek-VL/
-
-# Ignore the folder previous
-previous/
-
-# Ignore the results folder
-results_llava_tot/
-results_qwen_tot/
-results_deepseek_tot/
-
-# Jupyter artifacts
-.ipynb_checkpoints/
-
-# Python cache
+# === ENVIRONMENT & CACHE ===
 __pycache__/
 *.py[cod]
+.ipynb_checkpoints/
 
-# Environment/venv
 .env/
 .venv/
 venv/
 conda_dir/
 cache_dir/
 
-# OS
 .DS_Store
 
-# Model artifacts
+# === MODEL FILES ===
 *.pt
 
-# Old or irrelevant folders
+# === OLD / UNUSED FOLDERS ===
 later/
 previous/
 DeepSeek-VL/
 
-# Already-processed result folders
+# === RESULTS (not part of repo) ===
+results_llava_tot/
+results_qwen_tot/
+results_deepseek_tot/
 results_*/
 
-# Not included in repo
+# === PAPER EXTRAS NOT TO INCLUDE ===
 heatmap_*.pdf
 table_full_detection_summary.tex
 Videos/
+
+# === LARGE DATASETS (handled externally) ===
+dataset.csv
+dataset_results.csv
+detection_summary.csv
+aggregate_detection_summary.csv
+total_inference_times.csv
