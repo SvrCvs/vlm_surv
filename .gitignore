@@ -1,0 +1,59 @@
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Ignore the folders cache_dir and DeepSeek-VL
+cache_dir/
+DeepSeek-VL/
+
+# Ignore the folder previous
+previous/
+
+# Ignore the results folder
+results_llava_tot/
+results_qwen_tot/
+results_deepseek_tot/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment/venv
+.env/
+.venv/
+venv/
+conda_dir/
+cache_dir/
+
+# OS
+.DS_Store
+
+# Model artifacts
+*.pt
+
+# Old or irrelevant folders
+later/
+previous/
+DeepSeek-VL/
+
+# Already-processed result folders
+results_*/
+
+# Not included in repo
+heatmap_*.pdf
+table_full_detection_summary.tex
+Videos/
