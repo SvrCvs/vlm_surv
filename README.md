@@ -55,9 +55,9 @@ It is computed in [`notebooks/2_metrics/metrics.ipynb`](notebooks/2_metrics/metr
 
 ## 📁 Dataset Access
 
-Due to GitHub's file size limits, CSV files are hosted externally and available upon request:
+Due to GitHub's file size limits, our own CSV files are hosted externally and available upon request:
 
-- [`dataset.csv`](https://your-link-here)
+- [`dataset.csv`]('https://github.com/Xuange923/Surveillance-Video-Understanding?tab=readme-ov-file')
 - [`dataset_results.csv`]
 
 These are referenced by the model evaluation and metric computation notebooks.
