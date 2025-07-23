@@ -3,7 +3,7 @@
 This repository contains the official implementation and evaluation materials for the paper:
 
 > **VERITAS – A Vision-Language Based Forensic Framework for Surveillance Videos**  
-> Submitted to *IEEE Transactions on Information Forensics and Security (TIFS)*.
+> Submitted to *Forensic Science International: Digital Investigation*.
 
 ---
 
@@ -42,7 +42,7 @@ jupyter notebook notebooks/1_models/tot_qwen.ipynb
 
 ---
 
-## 📊 CMUS Metric
+## CMUS Metric
 
 The **Composite Model Utility Score (CMUS)** balances:
 - Semantic Accuracy
@@ -53,7 +53,7 @@ It is computed in [`notebooks/2_metrics/metrics.ipynb`](notebooks/2_metrics/metr
 
 ---
 
-## 📁 Dataset Access
+## Dataset Access
 
 Due to GitHub's file size limits, our own CSV files are hosted externally and available upon request:
 
@@ -69,14 +69,14 @@ These are referenced by the model evaluation and metric computation notebooks.
 ```bibtex
 @article{veritas2025,
   title     = {VERITAS: A VLM-Based Forensic Framework for Surveillance Videos},
-  author    = {Author Name and Collaborators},
-  journal   = {EURASIP J. Adv. Signal Process. (submitted)},
+  author    = {Saverio Cavasin, Pietro Tedeschi, Alessandro Brighente, Simone Milani, Mauro Conti},
+  journal   = {Forensic Science International: Digital Investigation (submitted)},
   year      = {2025}
 }
 ```
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions or collaborations, please get in touch via email to: saverio.cavasin@phd.unipd.it
