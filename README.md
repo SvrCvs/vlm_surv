@@ -1,8 +1,8 @@
-# VERITAS: A VLM-Based Forensic Framework for Surveillance Video Analysis
+# VESSI - VLM-Enhanced Support for Surveillance and Investigations
 
 This repository contains the official implementation and evaluation materials for the paper:
 
-> **VERITAS – A Vision-Language Based Forensic Framework for Surveillance Videos**  
+> **VESSI - VLM-Enhanced Support for Surveillance and Investigations**  
 > Submitted to *Forensic Science International: Digital Investigation*.
 
 ---
@@ -42,17 +42,6 @@ jupyter notebook notebooks/1_models/tot_qwen.ipynb
 
 ---
 
-## CMUS Metric
-
-The **Composite Model Utility Score (CMUS)** balances:
-- Semantic Accuracy
-- Hallucination Avoidance
-- Inference Efficiency
-
-It is computed in [`notebooks/2_metrics/metrics.ipynb`](notebooks/2_metrics/metrics.ipynb), and visualized in [`notebooks/3_analysis/`](notebooks/3_analysis/).
-
----
-
 ## Dataset Access
 
 Due to GitHub's file size limits, our own CSV files are hosted externally and available upon request:
@@ -68,7 +57,7 @@ These are referenced by the model evaluation and metric computation notebooks.
 
 ```bibtex
 @article{veritas2025,
-  title     = {VERITAS: A VLM-Based Forensic Framework for Surveillance Videos},
+  title     = {VESSI - VLM-Enhanced Support for Surveillance and Investigations},
   author    = {Saverio Cavasin, Pietro Tedeschi, Alessandro Brighente, Simone Milani, Mauro Conti},
   journal   = {Forensic Science International: Digital Investigation (submitted)},
   year      = {2025}
